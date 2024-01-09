@@ -1,0 +1,769 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Rajdhani:wght@300&family=Roboto:wght@700&display=swap');
+header{
+    height: 100px;
+    width: 100%;
+    background-color:#a1201f ;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px ;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom:2px solid rgba(0, 0, 0, 0.2) ;
+}
+#logado{
+    display: block;
+    position: absolute;
+    font-size: 15pt;
+    font-family:'Rajdhani', sans-serif , bold;
+    color: beige;
+    padding: 5px;
+    margin-left: 7rem;
+}
+#logado1{
+    display: block;
+    position: relative;
+    margin-top: -6rem;
+}
+#btnsair{
+    display: block;
+    margin-top: 3.7rem;
+    margin-left: 7rem;
+    background-color:rgb(231, 118, 90); 
+    color:rgb(243, 224, 224); 
+    font: normal 12pt Arial;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+    border-radius: 15px;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+}
+#btnsair:hover{
+    cursor: pointer;
+    background-color: rgb(243, 224, 224); 
+    color: rgb(231, 118, 90);
+    border: 2px solid rgba(00, 00, 00, 0.5) ;
+    transform: scale(1.1);
+}
+#clientes{
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px ;
+    margin-left: 660px;
+    padding: 6px;
+    width: 110px;
+    border-radius: 15px;
+    background-color: rgb(231, 118, 90);
+    color:rgb(243, 224, 224);
+    font: normal 12pt Arial;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+}
+#clientes:hover{
+    cursor: pointer;
+    color: rgb(243, 224, 224);
+    transform: scale(1.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+#reposicao{
+    display: block;
+    position: absolute;
+    margin-top: 30px ;
+    margin-left: 920px;
+    padding: 6px;
+    width: 110px;
+    border-radius: 15px;
+    background-color: rgb(231, 118, 90);
+    color:rgb(243, 224, 224);
+    font: normal 12pt Arial;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+}
+#reposicao:hover{
+    cursor: pointer;
+    color: rgb(243, 224, 224);
+    transform: scale(1.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+#reservas{
+    display: block;
+    position: absolute;
+    margin-top: 30px ;
+    margin-left: 1180px;
+    padding: 6px;
+    width: 110px;
+    border-radius: 15px;
+    background-color: rgb(231, 118, 90);
+    color:rgb(243, 224, 224);
+    font: normal 12pt Arial;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+}
+#reservas:hover{
+    cursor: pointer;
+    color: rgb(243, 224, 224);
+    transform: scale(1.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+body{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+#navegacaoLateral{
+    background-color: #a23324;
+    width: 250px;
+    border-right: 2px solid rgba(00, 00, 00, 0.2);
+    overflow-y: auto;
+    position: fixed; 
+    margin-top: -17px;  
+    left: 0; 
+    height: auto;   
+    display: none;
+
+}
+main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+#foldersNavigation li{
+    border: 2px solid #d48181;
+    border-radius: 15px;
+    margin-top: 3px;
+    font-family: 'Rajdhani', sans-serif , bold;
+    margin-left: 12px ;
+    margin-right: 14px;
+}
+#foldersNavigation a{
+    display: block;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    font-size:30px ;
+}
+#foldersNavigation a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+#foldersNavigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navreposicao{
+    padding-top: 9px;
+    background-color: #a23324;
+    width: 250px;
+    border-right: 2px solid rgba(00, 00, 00, 0.2);
+    overflow-y: auto; 
+    position: fixed; 
+    margin-top: -17px;  
+    left: 0; 
+    height: 100vh;   
+    display:none;
+}
+#navrepo li{
+    border: 2px solid #d48181;
+    border-radius: 15px;
+    margin-top: 3px;
+    font-family: 'Rajdhani', sans-serif , bold;
+    margin-left: 12px ;
+    margin-right: 14px;
+}
+#navrepo a{
+    display: block;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    font-size:30px ;
+}
+#navrepo a:hover{
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+#navrepo{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navreservas{
+    padding-top: 9px;
+    background-color: #a23324;
+    width: 250px;
+    border-right: 2px solid rgba(00, 00, 00, 0.2);
+    overflow-y: auto; 
+    position: fixed; 
+    margin-top: -17px;  
+    left: 0; 
+    height: 100vh;   
+    display:none;
+}
+#navreser{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#navreser li{
+    border: 2px solid #d48181;
+    border-radius: 15px;
+    margin-top: 3px;
+    font-family: 'Rajdhani', sans-serif , bold;
+    margin-left: 12px ;
+    margin-right: 14px;
+}
+#navreser a{
+    display: block;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    font-size:30px ;
+}
+#navreser a:hover{
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+h1{
+    color: beige;
+    text-align: center;
+    padding: 0%;
+    margin-top: 2px; 
+}
+
+@media (min-width:320px){
+    body{
+        background-image:url(../img/logocopia.png);
+        background-color:#a1201f;
+        background-repeat:no-repeat ;
+        background-size: 200px;
+        background-position-x: 98px;
+        background-position-y: 300px;
+    }
+    
+    #logo{
+        width: 50px;
+        height: 50px;
+    }
+    #logado{
+        margin-top: 40px;
+        font-size: 9pt;
+        padding-top: 4px;
+        margin-left: 70px;
+    }
+    #btnsair{
+        margin-top: 65px;
+        margin-left: 70px;
+        font-size: 7pt;
+        text-align:center;
+    }
+    #clientes{
+        margin-top: 50px;
+        margin-left: 160px;
+        font-size: 10px;
+        width: 60px;
+    }
+    #reposicao{
+        margin-top: 50px;
+        margin-left: 230px;
+        font-size: 10px;
+        width: 60px; 
+    }
+    #reservas{
+        margin-top: 50px;
+        margin-left: 300px;
+        font-size: 10px;
+        width: 60px;
+    }
+}
+
+@media (min-width:480px){
+    body{
+        background-image:url(../img/logocopia.png);
+        background-color:#a1201f;
+        background-repeat:no-repeat ;
+        background-size: 200px;
+        background-position-x: center;
+        background-position-y: 250px;
+    }
+    #logado{
+        margin-top: 40px;
+        font-size: 10pt;
+        padding-top: 4px;
+        margin-left: 70px;
+    }
+    #btnsair{
+        margin-top: 65px;
+        margin-left: 70px;
+        font-size: 9pt;
+        text-align:center;
+    }
+    #clientes{
+        margin-top: 50px;
+        margin-left: 210px;
+        font-size: 10px;
+        width: 60px;
+    }
+    #reposicao{
+        margin-top: 50px;
+        margin-left: 290px;
+        font-size: 10px;
+        width: 60px; 
+    }
+    #reservas{
+        margin-top: 50px;
+        margin-left: 370px;
+        font-size: 10px;
+        width: 60px;
+    }
+}
+
+@media (min-width:500px){
+    #clientes{
+        margin-top: 50px;
+        margin-left: 200px;
+        font-size: 12px;
+        width: 84px;
+    }
+    #reposicao{
+        margin-top: 50px;
+        margin-left: 290px;
+        font-size: 12px;
+        width: 84px; 
+    }
+    #reservas{
+        margin-top: 50px;
+        margin-left: 380px;
+        font-size: 12px;
+        width: 84px;
+    }
+}
+
+@media (min-width:650px){
+    body{
+        background-image:url(../img/logocopia.png);
+        background-color:#a1201f;
+        background-repeat:no-repeat ;
+        background-size: 200px;
+        background-position-x: center;
+        background-position-y: 250px;
+    }
+    #logado{
+        margin-top: 35px;
+        font-size: 15pt;
+        padding-top: 4px;
+        margin-left: 70px;
+    }
+    #btnsair{
+        margin-top: 65px;
+        margin-left: 70px;
+        font-size: 9pt;
+        text-align:center;
+    }
+    #clientes{
+        margin-top: 50px;
+        margin-left: 250px;
+        font-size: 15px;
+        width: 84px;
+    }
+    #reposicao{
+        margin-top: 50px;
+        margin-left: 350px;
+        font-size: 15px;
+        width: 84px; 
+    }
+    #reservas{
+        margin-top: 50px;
+        margin-left: 450px;
+        font-size: 15px;
+        width: 84px;
+    }
+}
+
+@media (min-width:740px){
+    body{
+        background-position-y:320px ;
+    }
+    #clientes{
+        margin-top: 50px;
+        margin-left: 250px;
+        font-size: 15px;
+        width: 84px;
+    }
+    #reposicao{
+        margin-top: 50px;
+        margin-left: 350px;
+        font-size: 15px;
+        width: 84px; 
+    }
+    #reservas{
+        margin-top: 50px;
+        margin-left: 450px;
+        font-size: 15px;
+        width: 84px;
+    }
+}
+
+
+
+@media (min-width:900px){
+    body{
+        background-image:url(../img/logocopia.png);
+        background-color:#a1201f;
+        background-repeat:no-repeat ;
+        background-size: 300px;
+        background-position-x: center;
+        background-position-y: 250px;
+    
+    }
+    #logado{
+        margin-top: 35px;
+        font-size: 10pt;
+        padding-top: 4px;
+        margin-left: 70px;
+    }
+    #btnsair{
+        margin-top: 65px;
+        font-size: 9pt;
+        text-align:center;
+    }
+    #clientes{
+        margin-top: 50px;
+        margin-left: 480px;
+        font-size: 15px;
+        width: 90px;
+    }
+    #reposicao{
+        margin-top: 50px;
+        margin-left: 580px;
+        font-size: 15px;
+        width: 90px;
+    }
+    #reservas{
+        margin-top: 50px;
+        margin-left: 680px;
+        font-size: 15px;
+        width: 90px;
+    }
+
+}
+
+@media (min-width:1020px){
+    body{
+        background-image:url(../img/logocopia.png);
+        background-repeat:no-repeat ;
+        background-size: 300px;
+        background-position-x: center;
+        background-position-y: 250px;
+    }
+    #logo{
+        width: 80px;
+        height: 80px;
+    }
+    #logado{
+        margin-top: 5px;
+        font-size: 15pt;
+        padding-top: 4px;
+        margin-left: 110px;
+    }
+    #btnsair{
+        margin-top: 45px;
+        margin-left: 110px;
+        font-size: 12pt;
+        text-align:center;
+    }
+    #clientes{
+        margin-top: 30px;
+        margin-left: 380px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reposicao{
+        margin-top: 30px;
+        margin-left: 540px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reservas{
+        margin-top: 30px;
+        margin-left: 700px;
+        font-size: 20px;
+        width: 120px;
+    }
+}
+
+@media (min-width:1128px){
+    body{
+        background-image:url(../img/logocopia.png);
+        background-repeat:no-repeat ;
+        background-size: 300px;
+        background-position-x: center;
+        background-position-y: 250px;
+    }
+    #logo{
+        width: 80px;
+        height: 80px;
+    }
+    #logado{
+        margin-top: 5px;
+        font-size: 15pt;
+        padding-top: 4px;
+        margin-left: 110px;
+    }
+    #btnsair{
+        margin-top: 45px;
+        margin-left: 110px;
+        font-size: 12pt;
+        text-align:center;
+    }
+    #clientes{
+        margin-top: 30px;
+        margin-left: 360px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reposicao{
+        margin-top: 30px;
+        margin-left: 520px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reservas{
+        margin-top: 30px;
+        margin-left: 690px;
+        font-size: 20px;
+        width: 120px;
+    }
+}
+
+@media (min-width:1250px){
+    #clientes{
+        margin-top: 30px;
+        margin-left: 400px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reposicao{
+        margin-top: 30px;
+        margin-left: 560px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reservas{
+        margin-top: 30px;
+        margin-left: 730px;
+        font-size: 20px;
+        width: 120px;
+    }
+}
+
+@media (min-width:1280px){
+    #clientes{
+        margin-top: 30px;
+        margin-left: 440px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reposicao{
+        margin-top: 30px;
+        margin-left: 600px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reservas{
+        margin-top: 30px;
+        margin-left: 770px;
+        font-size: 20px;
+        width: 120px;
+    }
+}
+
+@media (min-width:1310px){
+    #clientes{
+        margin-top: 30px;
+        margin-left: 480px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reposicao{
+        margin-top: 30px;
+        margin-left: 640px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reservas{
+        margin-top: 30px;
+        margin-left: 810px;
+        font-size: 20px;
+        width: 120px;
+    }
+}
+
+@media (min-width:1330px){
+    #clientes{
+        margin-top: 30px;
+        margin-left: 520px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reposicao{
+        margin-top: 30px;
+        margin-left: 680px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reservas{
+        margin-top: 30px;
+        margin-left: 850px;
+        font-size: 20px;
+        width: 120px;
+    }
+}
+@media (min-width:1510px){
+    #logado{
+        margin-top: -35px;
+    }
+    header{
+        height: 50px;
+    }
+    #clientes{
+        margin-top: -10px;
+        margin-left: 800px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reposicao{
+        margin-top: -10px;
+        margin-left: 940px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #reservas{
+        margin-top: -10px;
+        margin-left: 1080px;
+        font-size: 20px;
+        width: 120px;
+    }
+    #navegacaoLateral{
+        background-color: #a23324;
+        width: 250px;
+        border-right: 2px solid rgba(00, 00, 00, 0.2);
+        overflow: auto;
+        position: fixed; 
+        margin-top: -119px;  
+        left: 0; 
+        height: auto;   
+        display: none;
+    
+    }
+    main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+    
+    #foldersNavigation li{
+        border: 2px solid #d48181;
+        border-radius: 15px;
+        margin-top: 3px;
+        font-family: 'Rajdhani', sans-serif , bold;
+        margin-left: 12px ;
+        margin-right: 14px;
+    }
+    #foldersNavigation a{
+        display: block;
+        color: beige;
+        text-decoration: none;
+        padding: 5px;
+        font-size:30px ;
+    }
+    #foldersNavigation a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    
+    }
+    
+    #foldersNavigation {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #navreposicao{
+        padding-top: 9px;
+        background-color: #a23324;
+        width: 250px;
+        border-right: 2px solid rgba(00, 00, 00, 0.2);
+        overflow-y: auto; 
+        position: fixed; 
+        margin-top: -119px;  
+        left: 0; 
+        height: 100vh;   
+        display:none;
+    }
+    #navrepo li{
+        border: 2px solid #d48181;
+        border-radius: 15px;
+        margin-top: 3px;
+        font-family: 'Rajdhani', sans-serif , bold;
+        margin-left: 12px ;
+        margin-right: 14px;
+    }
+    #navrepo a{
+        display: block;
+        color: beige;
+        text-decoration: none;
+        padding: 5px;
+        font-size:30px ;
+    }
+    #navrepo a:hover{
+        background-color: rgba(255, 255, 255, 0.1); 
+    }
+    #navrepo{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #navreservas{
+        padding-top: 9px;
+        background-color: #a23324;
+        width: 250px;
+        border-right: 2px solid rgba(00, 00, 00, 0.2);
+        overflow-y: auto; 
+        position: fixed; 
+        margin-top: -119px;  
+        left: 0; 
+        height: 100vh;   
+        display:none;
+    }
+    #navreser{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    #navreser li{
+        border: 2px solid #d48181;
+        border-radius: 15px;
+        margin-top: 3px;
+        font-family: 'Rajdhani', sans-serif , bold;
+        margin-left: 12px ;
+        margin-right: 14px;
+    }
+    #navreser a{
+        display: block;
+        color: beige;
+        text-decoration: none;
+        padding: 5px;
+        font-size:30px ;
+    }
+    #navreser a:hover{
+        background-color: rgba(255, 255, 255, 0.1); 
+    }
+    h1{
+        color: beige;
+        text-align: center;
+        padding: 0%;
+        margin-top: 2px; 
+    }
+}

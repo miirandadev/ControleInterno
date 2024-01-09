@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comnpatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link id="logotop" rel="shortcut icon" href="./assets/img/logobar.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Rajdhani:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <title>BAR DO TUSTAO</title>
+</head>
+<body>
+    <div id="divlogo" class="classlogo">
+        <img id="logo" class="logo" src="./assets/img/logobar.png" alt="logodobar">
+    </div>
+    <header> 
+
+        <div id="cli">
+            <input id="clientes" type="button" value="Clientes" onclick="abrir()">
+        </div>
+        <div>
+            <input id="reposicao" type="button" value="Reposição" onclick="abrirrepo()"> 
+        </div>
+        <div>
+            <input id="reservas" type="button" value="Reservas" onclick="abrirreser()">
+        </div>
+        <div id="logado1">
+            <h1 id="logado"></h1>
+        </div>
+        
+        <button id="btnsair" onclick="sair()">Sair</button>
+    </header>
+<main>
+    <div id="navegacaoLateral">
+        <nav id="foldersNavigation"></nav>
+    </div>
+
+    <div id="navreposicao">
+        <nav id="navrepo">
+            <h1>Fornecedores</h1>
+            <li> 
+                <a href="./reposição/aurora.html">Aurora</a>          
+            </li>
+            <li>
+                <a href="./reposição/reposiçãoAmbev.html">Ambev</a>
+            </li>
+            <li>
+                <a href="./reposição/ciacarne.html">Cia Carne</a>
+            </li>
+            <li>
+                    <a href="./reposição/reposiçãoCoca.html"> Coca-Cola</a>
+            </li>
+            <li>          
+                    <a href="./reposição/reposiçãoCozinha.html">Cozinha</a>          
+            </li>
+            <li>       
+                <a href="./reposição/reposiçãoLimpeza.html">Limpeza</a>       
+            </li>
+            <li><a href="./reposição/pifpaf.html">Pif-Paf</a></li>
+            <li>        
+                    <a href="./reposição/reposiçãoGueguelo.html">Upside</a>        
+            </li>
+
+
+        </nav>
+    </div>
+
+    <div id="navreservas">
+        <nav id="navreser">
+            <li><a href="./mesesreserva/janeiro.html">Janeiro</a></li>
+            <li><a href="./mesesreserva/fevereiro.html">Fevereiro</a></li>
+            <li><a href="./mesesreserva/marco.html">Março</a></li>
+            <li><a href="./mesesreserva/abril.html">Abril</a></li>
+            <li><a href="./mesesreserva/maio.html">Maio</a></li>
+            <li><a href="./mesesreserva/junho.html">Junho</a></li>
+            <li><a href="./mesesreserva/julho.html">Julho</a></li>
+            <li><a href="./mesesreserva/agosto.html">Agosto</a></li>
+            <li><a href="./mesesreserva/setembro.html">Setembro</a></li>
+            <li><a href="./mesesreserva/outubro.html">Outubro</a></li>
+            <li><a href="./mesesreserva/novembro.html">Novembro</a></li>
+            <li><a href="./mesesreserva/dezembro.html">Dezembro</a></li>
+        </nav>
+    </div>
+</main>
+  
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

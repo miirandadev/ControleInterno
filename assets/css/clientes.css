@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Rajdhani:wght@300&family=Roboto:wght@700&display=swap');
+header{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color:#a1201f ;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px ;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom:2px solid rgba(0, 0, 0, 0.2) ;
+}
+#logado{
+    display: block;
+    position: absolute;
+    font-size: 15pt;
+    font-family:'Rajdhani', sans-serif , bold;
+    color: beige;
+    padding: 5px;
+    margin-left: 7rem;
+}
+#logado1{
+    display: block;
+    position: relative;
+    margin-top: -6rem;
+}
+#btnsair{
+    display: block;
+    position: absolute;
+    margin-top: 3.7rem;
+    margin-left: 7rem;
+    background-color:rgb(231, 118, 90); 
+    color:rgb(243, 224, 224); 
+    font: normal 12pt Arial;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+    border-radius: 15px;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+}
+#btnsair:hover{
+    cursor: pointer;
+    background-color: rgb(243, 224, 224); 
+    color: rgb(231, 118, 90);
+    border: 2px solid rgba(00, 00, 00, 0.5) ;
+    transform: scale(1.1);
+}
+#clientes{
+    display: inline-block;
+    position: absolute;
+    margin-top: -60px ;
+    margin-left: 1000px;
+    padding: 6px;
+    width: 110px;
+    border-radius: 15px;
+    background-color: rgb(231, 118, 90);
+    color:rgb(243, 224, 224);
+    font: normal 12pt Arial;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+}
+#clientes:hover{
+    cursor: pointer;
+    color: rgb(243, 224, 224);
+    transform: scale(1.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+body{
+    background-color: rgb(247, 247, 199);
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+#navegacaoLateral{
+    background-color: #a23324;
+    width: 250px;
+    border-right: 2px solid rgba(00, 00, 00, 0.2);
+    overflow-y: auto; 
+    position: fixed; 
+    margin-top: -17px;  
+    left: 0; 
+    height: auto;   
+    display: none;
+
+}
+main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+#foldersNavigation li{
+    border: 2px solid #d48181;
+    border-radius: 15px;
+    margin-top: 3px;
+    font-family: 'Rajdhani', sans-serif , bold;
+    margin-left: 12px ;
+    margin-right: 14px;
+}
+#foldersNavigation a{
+    display: block;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    font-size:30px ;
+}
+#foldersNavigation a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+#foldersNavigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#voltar{
+    position: absolute;
+    width: 70px;
+    text-align: center;
+    margin-top: 36px;
+    margin-left: 850px;
+    text-decoration: none;
+    padding: 6px;
+    background-color:rgb(231, 118, 90); 
+    color:rgb(243, 224, 224); 
+    font: normal 12pt Arial;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+    border-radius: 15px;
+    border: 2px solid rgba(00, 00, 00, 0.1) ;
+}
+#voltar:hover{
+    cursor: pointer;
+    color: rgb(243, 224, 224);
+    transform: scale(1.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+#tabela{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 800px;
+}
